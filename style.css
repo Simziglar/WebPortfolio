@@ -7,4 +7,17 @@ button, button:focus {
   box-shadow: none !important;
 }
 
+/***Typography Classess****/
+.font-poppins {
+  font-family: "Poppins", arial;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", arial;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", arial;
+}
+
 /*# sourceMappingURL=style.css.map */
