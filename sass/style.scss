@@ -4,16 +4,35 @@
 @import'./include/variables.scss';
 @import'./include/global.scss';
 @import'./include/typography.scss';
+@import'./include/color.scss';
 
 /***********HEADER *****************/
-.navbar .navbar-brand{
-    font-weight: bold;
-    color: $color-secondary;
-    span{
-        background-color: $color-primary;
-        color: $color-whity;
-        border-radius: 10px;
-        padding:0px 5px 0px 10px !important;
-        margin-left: 7px;
+#header{
+    #header-content{
+
+        max-width: 1530px;
+        margin: 0 auto;
+        border: 5px red solid !important;
+
+        .navbar {
+            .navbar-brand{
+                font-weight: bold;
+                color: $color-secondary;
+                span{
+                    background-color: $color-primary;
+                    color: $color-whity;
+                    border-radius: 10px;
+                    padding:0px 5px 0px 10px !important;
+                    margin-left: 7px;
+                }
+            }
+            .collapse{
+                .nav-link{
+                    font-size:18px;
+                    font-family:$font-montserrat;
+                    color: $color-secondary ;
+                }
+            }
+        }
     }
 }

@@ -70,17 +70,40 @@ button, button:focus {
   font-size: 16px;
 }
 
+/*****Color****/
+.color-primary {
+  color: #0FBF61;
+}
+
+.color-secondary {
+  color: #151D41;
+}
+
+.color-whity {
+  color: #ffffff;
+}
+
 /***********HEADER *****************/
-.navbar .navbar-brand {
+#header #header-content {
+  max-width: 1530px;
+  margin: 0 auto;
+  border: 5px red solid !important;
+}
+#header #header-content .navbar .navbar-brand {
   font-weight: bold;
   color: #151D41;
 }
-.navbar .navbar-brand span {
+#header #header-content .navbar .navbar-brand span {
   background-color: #0FBF61;
   color: #ffffff;
   border-radius: 10px;
   padding: 0px 5px 0px 10px !important;
   margin-left: 7px;
+}
+#header #header-content .navbar .collapse .nav-link {
+  font-size: 18px;
+  font-family: "Montserrat", arial;
+  color: #151D41;
 }
 
 /*# sourceMappingURL=style.css.map */
