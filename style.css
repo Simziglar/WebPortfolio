@@ -20,4 +20,67 @@ button, button:focus {
   font-family: "Montserrat", arial;
 }
 
+/*******Font-Color****/
+.color-primary {
+  color: #0FBF61;
+}
+
+.color-secondary {
+  color: #151D41;
+}
+
+.color-whity {
+  color: #ffffff;
+}
+
+/******Font Size *******/
+.font-size-49 {
+  font-size: 49px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-19 {
+  font-size: 19px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+/***********HEADER *****************/
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #151D41;
+}
+.navbar .navbar-brand span {
+  background-color: #0FBF61;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 0px 5px 0px 10px !important;
+  margin-left: 7px;
+}
+
 /*# sourceMappingURL=style.css.map */
