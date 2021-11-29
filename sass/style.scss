@@ -36,3 +36,20 @@
         }
     }
 }
+
+
+/***********LANDING PAGE*****************/
+.landing-page{
+    padding-top: 50px;
+    .greeting{
+        background-color: rgba($color: #0fbf61, $alpha: 0.2);
+        color: $color-primary !important;
+        padding: 20px 27px;
+        border-radius: 5px;
+    }
+    .righty .profile{
+        background-color: #0fbf61;
+        padding: 120px;
+    }
+
+}

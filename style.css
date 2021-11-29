@@ -34,6 +34,14 @@ button, button:focus {
 }
 
 /******Font Size *******/
+.font-size-69 {
+  font-size: 69px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
 .font-size-49 {
   font-size: 49px;
 }
@@ -104,6 +112,21 @@ button, button:focus {
   font-size: 18px;
   font-family: "Montserrat", arial;
   color: #151D41;
+}
+
+/***********LANDING PAGE*****************/
+.landing-page {
+  padding-top: 50px;
+}
+.landing-page .greeting {
+  background-color: rgba(15, 191, 97, 0.2);
+  color: #0FBF61 !important;
+  padding: 20px 27px;
+  border-radius: 5px;
+}
+.landing-page .righty .profile {
+  background-color: #0fbf61;
+  padding: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */
