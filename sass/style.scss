@@ -7,14 +7,21 @@
 @import'./include/color.scss';
 
 /***********HEADER *****************/
-#header{
-    #header-content{
 
+#header{       
+    background-image: url(/assets/profilebg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;   
+    
+    #content{
         max-width: 1530px;
         margin: 0 auto;
         border: 5px red solid !important;
 
         .navbar {
+            background: transparent !important;
+            z-index: 1;
             .navbar-brand{
                 font-weight: bold;
                 color: $color-secondary;
@@ -40,16 +47,53 @@
 
 /***********LANDING PAGE*****************/
 .landing-page{
-    padding-top: 50px;
-    .greeting{
-        background-color: rgba($color: #0fbf61, $alpha: 0.2);
-        color: $color-primary !important;
-        padding: 20px 27px;
-        border-radius: 5px;
+
+    top: -100px;    
+    position: relative;
+    margin-top: 5rem;
+    .lefty{
+        margin: 100px 0;
+        .greeting{
+            background-color: rgba($color: #0fbf61, $alpha: 0.2);
+            color: $color-primary !important;
+            padding: 20px 27px;
+            border-radius: 5px;
+        }
+        .btn-top{
+            margin: 50px 0;            
+            a{
+                padding: 30px 40px;
+                border-radius: 10px;
+                margin-right: 10px;
+            }
+            .explore{
+                border: 3px solid $color-secondary;
+                padding: 27px 40px;
+            }
+
+        }
     }
-    .righty .profile{
-        background-color: #0fbf61;
+    .righty .profile{         
         padding: 120px;
+    }
+
+}
+/*******ABOUT ME*******************/
+.about-me{
+    .righty{
+        p{
+            line-height: 2rem;
+        }
+        .about-head{
+            background-color: rgba($color: #0fbf61, $alpha: 0.2);
+            color: $color-primary !important;
+            padding: 20px 27px;
+            border-radius: 5px;
+        }
+        .download{
+            padding: 30px 60px;
+            border-radius: 10px;
+        }
     }
 
 }

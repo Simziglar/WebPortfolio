@@ -91,24 +91,42 @@ button, button:focus {
   color: #ffffff;
 }
 
+.color-primary-bg {
+  background: #0FBF61;
+}
+
+.color-primary-bg-2 {
+  background-color: rgba(15, 191, 97, 0.2);
+}
+
 /***********HEADER *****************/
-#header #header-content {
+#header {
+  background-image: url(/assets/profilebg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+#header #content {
   max-width: 1530px;
   margin: 0 auto;
   border: 5px red solid !important;
 }
-#header #header-content .navbar .navbar-brand {
+#header #content .navbar {
+  background: transparent !important;
+  z-index: 1;
+}
+#header #content .navbar .navbar-brand {
   font-weight: bold;
   color: #151D41;
 }
-#header #header-content .navbar .navbar-brand span {
+#header #content .navbar .navbar-brand span {
   background-color: #0FBF61;
   color: #ffffff;
   border-radius: 10px;
   padding: 0px 5px 0px 10px !important;
   margin-left: 7px;
 }
-#header #header-content .navbar .collapse .nav-link {
+#header #content .navbar .collapse .nav-link {
   font-size: 18px;
   font-family: "Montserrat", arial;
   color: #151D41;
@@ -116,17 +134,48 @@ button, button:focus {
 
 /***********LANDING PAGE*****************/
 .landing-page {
-  padding-top: 50px;
+  top: -100px;
+  position: relative;
+  margin-top: 5rem;
 }
-.landing-page .greeting {
+.landing-page .lefty {
+  margin: 100px 0;
+}
+.landing-page .lefty .greeting {
   background-color: rgba(15, 191, 97, 0.2);
   color: #0FBF61 !important;
   padding: 20px 27px;
   border-radius: 5px;
 }
+.landing-page .lefty .btn-top {
+  margin: 50px 0;
+}
+.landing-page .lefty .btn-top a {
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.landing-page .lefty .btn-top .explore {
+  border: 3px solid #151D41;
+  padding: 27px 40px;
+}
 .landing-page .righty .profile {
-  background-color: #0fbf61;
   padding: 120px;
+}
+
+/*******ABOUT ME*******************/
+.about-me .righty p {
+  line-height: 2rem;
+}
+.about-me .righty .about-head {
+  background-color: rgba(15, 191, 97, 0.2);
+  color: #0FBF61 !important;
+  padding: 20px 27px;
+  border-radius: 5px;
+}
+.about-me .righty .download {
+  padding: 30px 60px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
