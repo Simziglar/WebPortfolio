@@ -126,10 +126,17 @@ button, button:focus {
   padding: 0px 5px 0px 10px !important;
   margin-left: 7px;
 }
+#header #content .navbar .active {
+  border-bottom: 3px solid #0FBF61 !important;
+}
 #header #content .navbar .collapse .nav-link {
   font-size: 18px;
   font-family: "Montserrat", arial;
   color: #151D41;
+  transition: 1s;
+}
+#header #content .navbar .collapse .nav-link:hover {
+  color: #0FBF61;
 }
 
 /***********LANDING PAGE*****************/
