@@ -103,5 +103,17 @@
             border-radius: 10px;
         }
     }
+    .skill-percent{
+        .progress{
+            width: 150px;
+            height: 150px !important;
+            float: left;
+            line-height: 150px;
+            background: none;
+            margin: 20px;
+            box-shadow: none;
+            position: relative;
+        }
+    }
 
 }

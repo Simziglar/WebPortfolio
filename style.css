@@ -184,5 +184,15 @@ button, button:focus {
   padding: 30px 60px;
   border-radius: 10px;
 }
+.about-me .skill-percent .progress {
+  width: 150px;
+  height: 150px !important;
+  float: left;
+  line-height: 150px;
+  background: none;
+  margin: 20px;
+  box-shadow: none;
+  position: relative;
+}
 
 /*# sourceMappingURL=style.css.map */
