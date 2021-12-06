@@ -322,6 +322,7 @@ button, button:focus {
 /*****************MY SERVICES*******************/
 .services .main-service {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 1s;
 }
 .services .main-service h3 {
   background-image: url(/assets/line-bg.png);
@@ -337,7 +338,24 @@ button, button:focus {
   color: #fff;
 }
 .services .main-service a img {
-  padding-left: px;
+  padding-left: 10px;
+}
+.services .main-service:hover {
+  background-color: #0FBF61;
+}
+.services .main-service:hover .web-icon {
+  background-image: url(/assets/web-icon-black-white.png);
+}
+.services .main-service:hover h3 {
+  color: #ffffff;
+}
+.services .main-service:hover p {
+  color: #ffffff;
+}
+.services .main-service:hover a {
+  background-color: #fff;
+  color: #151D41;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
