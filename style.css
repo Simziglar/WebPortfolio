@@ -343,9 +343,6 @@ button, button:focus {
 .services .main-service:hover {
   background-color: #0FBF61;
 }
-.services .main-service:hover .web-icon {
-  background-image: url(/assets/web-icon-black-white.png);
-}
 .services .main-service:hover h3 {
   color: #ffffff;
 }
