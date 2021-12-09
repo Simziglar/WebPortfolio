@@ -19,8 +19,24 @@
     <!--CUSTOM CSS-->
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript">
+
+      element =  document.getElementsByClassName('ober');
+      element.addEventListener("mouseover", function setNewImage(){
+        this.style.background ="#0000ff"
+      });
+
+
+      // function setNewImage(){
+      //   alert();
+   
+      // }
+    </script>``````````
+
 </head>
 <body>
+  
+
     <!--Start Header-->
     <header id="header">
       
@@ -173,33 +189,11 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-4 ">
-                  <div class="main-service p-4 mb-5 rounded">
-                    <img class="pt-3 web-icon" src="./assets/web-icon-green.png" 
-                    alt="" onmouseover="this.src='./assets/web-icon-black-white.png'"
-                    onmouseout="this.src='./assets/web-icon-green.png'" >
+                  <div class="main-service p-4 mb-5 rounded" >
+                    <img class=" web-icon pt-3 " src="/assets/web-icon-green.png" alt="">  
                     <h3 class=" pt-3 font-playfair color-secondary">Web Design</h3>
                     <p class="py-3 font-montserrat font-size-16 ">Lorem ipsum, dolor sit amet, Stet clita kasd lorem ipsum dolor sit amet, sed diam eirmod tempor dolore.</p>
-                    <a class="my-5 font-playfair color-primary-bg" href="#">Know More <img src="/assets/arrow-right.png" alt=""></a>
-                  </div>
-                </div>
-                <div class="col-lg-4 ">
-                  <div class="main-service p-4 mb-5 rounded">
-                    <img class="pt-3 web-icon" src="./assets/web-icon-green.png" 
-                    alt="" onmouseover="this.src='./assets/web-icon-black-white.png'"
-                    onmouseout="this.src='./assets/web-icon-green.png'" >
-                    <h3 class=" pt-3 font-playfair color-secondary">Web Design</h3>
-                    <p class="py-3 font-montserrat font-size-16 ">Lorem ipsum, dolor sit amet, Stet clita kasd lorem ipsum dolor sit amet, sed diam eirmod tempor dolore.</p>
-                    <a class="my-5 font-playfair color-primary-bg" href="#">Know More <img src="/assets/arrow-right.png" alt=""></a>
-                  </div>
-                </div>
-                <div class="col-lg-4 ">
-                  <div class="main-service p-4 mb-5 rounded">
-                    <img class="pt-3 web-icon" src="./assets/web-icon-green.png" 
-                    alt="" onmouseover="this.src='./assets/web-icon-black-white.png'"
-                    onmouseout="this.src='./assets/web-icon-green.png'" >
-                    <h3 class=" pt-3 font-playfair color-secondary">Web Design</h3>
-                    <p class="py-3 font-montserrat font-size-16 ">Lorem ipsum, dolor sit amet, Stet clita kasd lorem ipsum dolor sit amet, sed diam eirmod tempor dolore.</p>
-                    <a class="my-5 font-playfair color-primary-bg" href="#">Know More <img src="/assets/arrow-right.png" alt=""></a>
+                    <a class="my-5 font-playfair color-primary-bg" href="#">Know More <img class="icon-right" src="/assets/arrow-right.png" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -216,8 +210,9 @@
     
 
     <!--JAVASCRIPT-->
+    <script src="/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</html> 
+</html>  

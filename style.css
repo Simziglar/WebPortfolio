@@ -343,8 +343,12 @@ button, button:focus {
 .services .main-service:hover {
   background-color: #0FBF61;
 }
+.services .main-service:hover .web-icon {
+  content: url(/assets/web-icon-black-white.png) !important;
+}
 .services .main-service:hover h3 {
   color: #ffffff;
+  background-image: url(/assets/line-bg-w.png);
 }
 .services .main-service:hover p {
   color: #ffffff;
@@ -353,6 +357,9 @@ button, button:focus {
   background-color: #fff;
   color: #151D41;
   font-weight: bold;
+}
+.services .main-service:hover a img {
+  content: url(/assets/arrow_right_blue.png);
 }
 
 /*# sourceMappingURL=style.css.map */

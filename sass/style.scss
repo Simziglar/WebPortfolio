@@ -291,12 +291,12 @@
     .main-service:hover{
         background-color:$color-primary;
         .web-icon{
-         
+            content: url(/assets/web-icon-black-white.png) !important;
         }
         h3{
             color: $color-whity;
+            background-image: url(/assets/line-bg-w.png);
         }
-
         p{
             color: $color-whity;
         }
@@ -305,11 +305,8 @@
             color: $color-secondary;
             font-weight: bold;
             img{
-
+                content: url(/assets/arrow_right_blue.png);
             }
-        }
-
+         }
     }
-
-
 }
