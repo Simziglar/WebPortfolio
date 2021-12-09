@@ -285,13 +285,13 @@
             img{
                 padding-left:10px;
             }
-        }
+        }        
 
     }
-    .main-service:hover{
+    .main-service:nth-child(1):hover{
         background-color:$color-primary;
         .web-icon{
-            content: url(/assets/web-icon-black-white.png) !important;
+            content: url(/assets/web-icon-black-white.png);            
         }
         h3{
             color: $color-whity;
@@ -305,8 +305,29 @@
             color: $color-secondary;
             font-weight: bold;
             img{
-                content: url(/assets/arrow_right_blue.png);
+                content: url(/assets/arrow_right_blue.png);           
             }
-         }
+         }        
+
+    }    
+    .service2:hover{
+        .web-icon{
+            content: url(/assets/graphics_icon_white.png) !important;            
+        }
     }
+    .service3:hover{
+        .web-icon{
+            content: url(/assets/web_dev_white.png) !important;            
+        }
+    }
+
+   
+  
+
+
+
+
+
+  
+
 }

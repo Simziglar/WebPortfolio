@@ -340,26 +340,32 @@ button, button:focus {
 .services .main-service a img {
   padding-left: 10px;
 }
-.services .main-service:hover {
+.services .main-service:nth-child(1):hover {
   background-color: #0FBF61;
 }
-.services .main-service:hover .web-icon {
-  content: url(/assets/web-icon-black-white.png) !important;
+.services .main-service:nth-child(1):hover .web-icon {
+  content: url(/assets/web-icon-black-white.png);
 }
-.services .main-service:hover h3 {
+.services .main-service:nth-child(1):hover h3 {
   color: #ffffff;
   background-image: url(/assets/line-bg-w.png);
 }
-.services .main-service:hover p {
+.services .main-service:nth-child(1):hover p {
   color: #ffffff;
 }
-.services .main-service:hover a {
+.services .main-service:nth-child(1):hover a {
   background-color: #fff;
   color: #151D41;
   font-weight: bold;
 }
-.services .main-service:hover a img {
+.services .main-service:nth-child(1):hover a img {
   content: url(/assets/arrow_right_blue.png);
+}
+.services .service2:hover .web-icon {
+  content: url(/assets/graphics_icon_white.png) !important;
+}
+.services .service3:hover .web-icon {
+  content: url(/assets/web_dev_white.png) !important;
 }
 
 /*# sourceMappingURL=style.css.map */
