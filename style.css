@@ -33,6 +33,10 @@ button, button:focus {
   color: #ffffff;
 }
 
+.color-gray {
+  color: #686868;
+}
+
 /******Font Size *******/
 .font-size-69 {
   font-size: 69px;
@@ -50,6 +54,10 @@ button, button:focus {
   font-size: 40px;
 }
 
+.font-size-36 {
+  font-size: 36px;
+}
+
 .font-size-32 {
   font-size: 32px;
 }
@@ -60,6 +68,10 @@ button, button:focus {
 
 .font-size-25 {
   font-size: 25px;
+}
+
+.font-size-22 {
+  font-size: 22px;
 }
 
 .font-size-20 {
