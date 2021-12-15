@@ -9,7 +9,9 @@ $(document).ready(function() {
 
     $(".button-group").on("click", "button",function() {
         var filterValue = $(this).attr('data-filter');
-        $grid.isotope({filterValue:filterValue});        
+        $grid.isotope({
+            filter:filterValue
+        });        
     });
 
 
